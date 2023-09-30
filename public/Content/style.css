@@ -1,0 +1,46 @@
+/* style.css
+Student name: Chan, Kam Fai
+Student ID: 301278942 */
+
+/* CSS for main nav */
+.container {
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  text-align: center; 
+   
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.contactForm {
+  display: flex; 
+  flex-direction: row; 
+  align-items: left; 
+  margin-bottom: 10px; 
+}
+
+.contactForm input[type="text"] {
+  width: 100%; 
+  padding: 5px; 
+  margin-bottom: 10px; 
+}
+
+ul{
+  list-style: none;
+}
+
+.nav-link{
+  color: white;
+}
+
+.container-fluid{
+  margin: 20px;
+  margin-left:10%;
+}
+
+/* CSS for the Project page */
+.serviceOffer{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  list-style: none;
+}
